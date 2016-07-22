@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Copy to clipboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="demo_files\CopyToClipboard.min.js"></script>
+    <link href="demo_files\demo.css" type="text/css" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            CopyToClipboard.Events.InitializeCopyToClipboardTriggers("CpnCode");
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <div class="alt">
+            <div class="promotion">
+                <div class="xap-join">
+                    <div class="container-fluid poid-container">
+                        <div class="row coupon-content">
+                            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                                <div class="row">
+                                    <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 merch-logo-section">
+                                        <div class="xapp-coupon">
+                                            <div class="merch-logo">
+                                                <img src="demo_files/CopyToClipboard.jpg" alt="Macy&#39;s Coupons" sizes="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-7 poid-text-section ">
+                                        <div class="xaps-coupon text-sm-left">
+                                            <div class="merchant-name">
+                                                Macy's
+                                            </div>
+                                            <div class="">
+                                                <div class="xaps-coupon-text">
+                                                    <h3> 25% Off During Black Friday in July</h3>
+                                                </div>
+                                                <div class="xaps-coupon-exp">
+                                                    <div>
+                                                        <b>Expires: 7/17/2016</b>
+                                                    </div>
+                                                </div>
+                                            </div>                               
+                                            <div class="input-group copy-to-clipboard">
+                                                <p class="code-container" id="CpnCode_input_BFJULY" contenteditable="False">BFJULY</p>
+                                                <span class="input-group-btn">
+                                                    <button id="CpnCode_btn_BFJULY" class="btn" type="button" data-clipboard-text="BFJULY" data-clipboard-target="CpnCode_input_BFJULY">
+                                                        <span class="copy">COPY CODE</span>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-7 poid-text-section ">
+                                        <div class="xaps-coupon text-sm-left">
+                                            <div class="merchant-name">
+                                                Macy's
+                                            </div>
+                                            <div class="">
+                                                <div class="xaps-coupon-text">
+                                                    <h3> Free shipping on purchases above $50</h3>
+                                                </div>
+                                                <div class="xaps-coupon-exp">
+                                                    <div>
+                                                        <b>Expires: 7/17/2016</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group copy-to-clipboard">
+                                                <p class="code-container" id="CpnCode_input_50FREESHIPPING" contenteditable="False">50FREESHIPPING</p>
+                                                <span class="input-group-btn">
+                                                    <button id="CpnCode_btn_50FREESHIPPING" class="btn" type="button" data-clipboard-text="50FREESHIPPING" data-clipboard-target="CpnCode_input_50FREESHIPPING">
+                                                        <span class="copy">COPY CODE</span>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
